@@ -1,4 +1,12 @@
+import elvaDeviceImage from '../assets/ELVA Device.png'
+
 export const carouselSlides = [
+  {
+    image: elvaDeviceImage,
+    imageFit: "contain",
+    title: "ELVA Device",
+    subtitle: "Visual intelligence engineered for industry",
+  },
   {
     image:
       "https://images.unsplash.com/photo-1558002038-1055907df827",

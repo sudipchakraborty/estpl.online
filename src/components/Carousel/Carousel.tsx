@@ -27,6 +27,7 @@ function Carousel() {
           }`}
           style={{
             backgroundImage: `url(${slide.image})`,
+            backgroundSize: slide.imageFit || "cover",
           }}
         >
           <div className="carousel-overlay">

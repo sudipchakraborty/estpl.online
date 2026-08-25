@@ -8,15 +8,81 @@
 
   padding: 16px;
   border-radius: 18px;
-  background: #f8fafc;
+  background: linear-gradient(155deg, #063b76 0%, #031f48 100%);
 
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border: 1px solid rgba(30, 174, 224, 0.28);
+  box-shadow: 0 18px 45px rgba(2, 27, 65, 0.24);
 
   display: flex;
   flex-direction: column;
   gap: 16px;
 
   overflow-y: auto;
+}
+
+.device-metrics {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.device-metric {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(26, 145, 198, 0.2);
+  border-radius: 14px;
+  background: linear-gradient(145deg, #ffffff 0%, #eef8fc 100%);
+  box-shadow: 0 10px 28px rgba(15, 41, 55, 0.07);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.device-metric::before {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: linear-gradient(180deg, #009fda, #074f9d);
+}
+
+.device-metric:nth-child(2)::before {
+  background: linear-gradient(180deg, #ffad22, #f36c21);
+}
+
+.device-metric:nth-child(3)::before {
+  background: linear-gradient(180deg, #00b7e8, #f58220);
+}
+
+.device-metric:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 159, 218, 0.42);
+  box-shadow: 0 16px 35px rgba(15, 41, 55, 0.11);
+}
+
+.device-metric p {
+  margin: 0 0 14px;
+  color: #526c80;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.device-metric div {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+}
+
+.device-metric strong {
+  color: #063b76;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.device-metric span {
+  color: #f47b20;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* --- Stats Grid --- */

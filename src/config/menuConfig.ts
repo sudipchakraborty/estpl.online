@@ -6,49 +6,7 @@ export const menuConfig = [
 
   {
     title: "Products",
-
-    items: [
-
-      {
-        title: "Home Automation",
-        url: "/products/home-automation",
-      },
-
-      {
-        title: "Factory Automation",
-        url: "/products/factory-automation",
-      },
-
-      {
-        title: "Hospital Automation",
-        url: "/products/hospital-automation",
-      },
-
-      {
-        title: "Agriculture AI",
-        url: "/products/agriculture-ai",
-      },
-
-      {
-        title: "MQTT Cloud",
-        url: "/products/mqtt-cloud",
-      },
-
-      {
-        title: "Blockchain + IoT",
-        url: "/products/blockchain-iot",
-      },
-
-      {
-        title: "Edge Computing",
-        url: "/products/edge-computing",
-      },
-
-      {
-        title: "Smart City Platform",
-        url: "/products/smart-city",
-      },
-    ],
+    items: [],
   },
 
   /* ==========================
@@ -144,34 +102,7 @@ export const menuConfig = [
 
   {
     title: "Company",
-
-    items: [
-
-      {
-        title: "About SukalyanAI",
-        url: "/company/about",
-      },
-
-      {
-        title: "Vision & Mission",
-        url: "/company/vision",
-      },
-
-      {
-        title: "Partners",
-        url: "/company/partners",
-      },
-
-      {
-        title: "Careers",
-        url: "/company/careers",
-      },
-
-      {
-        title: "Contact Us",
-        url: "/company/contact",
-      },
-    ],
+    items: [],
   },
 ];
 
