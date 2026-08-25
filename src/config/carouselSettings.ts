@@ -1,12 +1,5 @@
 export const carouselSettings = {
-  interval: 5000,
-
-  effect: "slide-left",
+  transitionDuration: 2500,
+  pauseDuration: 1000,
+  slideWidthPercent: 88,
 };
-
-
-// effect: "slide-left"
-// effect: "slide-right"
-// effect: "zoom"
-// effect: "blur"
-// effect: "premium"
