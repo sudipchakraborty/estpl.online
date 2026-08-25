@@ -1,0 +1,68 @@
+.customers-section {
+  padding: 60px 40px 70px;
+  border-top: 1px solid #e4eaed;
+  background: linear-gradient(180deg, #f8fafb 0%, #ffffff 100%);
+  text-align: center;
+}
+
+.customers-eyebrow {
+  margin: 0 0 10px;
+  color: #087d9a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.customers-section h2 {
+  margin: 0 0 38px;
+  color: #132d3a;
+  font-size: 2.2rem;
+}
+
+.customer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 16px;
+  align-items: stretch;
+}
+
+.customer-logo-card {
+  min-height: 112px;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #e1e8eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(18, 48, 61, 0.06);
+}
+
+.customer-logo-card img {
+  display: block;
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .customers-section {
+    padding: 48px 20px 56px;
+  }
+
+  .customers-section h2 {
+    margin-bottom: 28px;
+    font-size: 1.8rem;
+  }
+
+  .customer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .customer-logo-card {
+    min-height: 96px;
+    padding: 14px;
+  }
+}

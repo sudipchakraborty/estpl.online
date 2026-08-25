@@ -1,108 +1,37 @@
+import brochurePdf from '../assets/Download content/ESTPL-Brochure.pdf?url'
+
 export const menuConfig = [
-
-  /* ==========================
-     PRODUCTS
-  ========================== */
-
   {
-    title: "Products",
+    title: 'Products',
     items: [],
   },
-
-  /* ==========================
-     INDUSTRIES
-  ========================== */
-
   {
-    title: "Industries",
-
+    title: 'Industries',
+    items: [],
+  },
+  {
+    title: 'Company',
     items: [
-
+      { title: 'About Us', url: '/company/about' },
+      { title: 'Our Directors', url: '/company/directors' },
+      { title: 'Team', url: '/company/team' },
+      { title: 'Events', url: '/company/events' },
+      { title: 'Success Stories', url: '/company/success-stories' },
+    ],
+  },
+  {
+    title: 'Career',
+    url: '/career',
+    items: [],
+  },
+  {
+    title: 'Download',
+    items: [
       {
-        title: "Healthcare",
-        url: "/industries/healthcare",
-      },
-
-      {
-        title: "Manufacturing",
-        url: "/industries/manufacturing",
-      },
-
-      {
-        title: "Agriculture",
-        url: "/industries/agriculture",
-      },
-
-      {
-        title: "Retail",
-        url: "/industries/retail",
-      },
-
-      {
-        title: "Education",
-        url: "/industries/education",
-      },
-
-      {
-        title: "Smart Buildings",
-        url: "/industries/smart-buildings",
-      },
-
-      {
-        title: "Smart Cities",
-        url: "/industries/smart-city",
+        title: 'Brochure',
+        url: brochurePdf,
+        download: 'ESTPL-Brochure.pdf',
       },
     ],
   },
-
-  /* ==========================
-     DEVELOPERS
-  ========================== */
-
-  {
-    title: "Developers",
-
-    items: [
-
-      {
-        title: "Free MQTT Broker",
-        url: "/developers/mqtt",
-      },
-
-      {
-        title: "REST API",
-        url: "/developers/api",
-      },
-
-      {
-        title: "SDK Downloads",
-        url: "/developers/sdk",
-      },
-
-      {
-        title: "Documentation",
-        url: "/developers/docs",
-      },
-
-      {
-        title: "Device Integration",
-        url: "/developers/device-integration",
-      },
-
-      {
-        title: "Open Source Projects",
-        url: "/developers/open-source",
-      },
-    ],
-  },
-
-  /* ==========================
-     COMPANY
-  ========================== */
-
-  {
-    title: "Company",
-    items: [],
-  },
-];
-
+]

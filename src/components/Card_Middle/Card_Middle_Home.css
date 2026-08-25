@@ -88,6 +88,7 @@
   .hero-overlay h2 {
     font-size: 1.5rem;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -110,4 +111,5 @@
   .feature-section {
     padding: 30px 20px;
   }
+
 }

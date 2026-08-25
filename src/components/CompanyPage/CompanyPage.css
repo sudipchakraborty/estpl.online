@@ -1,0 +1,63 @@
+.company-page-shell {
+  min-height: 100vh;
+  background: #eef3f5;
+  color: #132d3a;
+}
+
+.company-page-content {
+  min-height: calc(100vh - 75px);
+  padding: 150px 32px 80px;
+}
+
+.company-page-hero {
+  width: min(960px, 100%);
+  margin: 0 auto;
+}
+
+.company-page-hero > p {
+  margin: 0 0 16px;
+  color: #087d9a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.company-page-hero h1 {
+  margin: 0 0 44px;
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+  line-height: 1;
+}
+
+.company-page-placeholder {
+  min-height: 280px;
+  padding: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid #dce5e8;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(18, 48, 61, 0.07);
+}
+
+.company-page-placeholder h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.company-page-placeholder span {
+  color: #61747d;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .company-page-content {
+    padding: 115px 20px 50px;
+  }
+
+  .company-page-placeholder {
+    min-height: 220px;
+    padding: 28px;
+  }
+}

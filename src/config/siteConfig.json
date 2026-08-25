@@ -1,0 +1,33 @@
+{
+  "site": {
+    "brandName": "ELVA Visual AI",
+    "companyName": "ELTERN SEGEN Technologie Pvt Ltd",
+    "tagline": "Industrial intelligence for safer, smarter and more reliable operations."
+  },
+  "contact": { "email": "contact@estpl.online", "phone": "", "address": "" },
+  "footerLinks": [
+    { "label": "Home", "url": "/" },
+    { "label": "About Us", "url": "/company/about" },
+    { "label": "Our Directors", "url": "/company/directors" },
+    { "label": "Team", "url": "/company/team" },
+    { "label": "Events", "url": "/company/events" },
+    { "label": "Success Stories", "url": "/company/success-stories" },
+    { "label": "Careers", "url": "/career" }
+  ],
+  "socialLinks": [
+    { "label": "LinkedIn", "url": "" },
+    { "label": "Facebook", "url": "" },
+    { "label": "Instagram", "url": "" },
+    { "label": "YouTube", "url": "" },
+    { "label": "X", "url": "" }
+  ],
+  "legalLinks": [
+    { "label": "Privacy Policy", "url": "#" },
+    { "label": "Terms of Use", "url": "#" }
+  ],
+  "assistant": {
+    "name": "ELVA",
+    "welcomeMessage": "Hello! I am ELVA. How can I help you?",
+    "placeholder": "Ask ELVA..."
+  }
+}
