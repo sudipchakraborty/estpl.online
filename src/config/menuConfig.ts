@@ -1,4 +1,4 @@
-import brochurePdf from '../assets/Download content/ESTPL-Brochure.pdf?url'
+import brochurePdf from '../assets/Download Content/ESTPL-Brochure.pdf?url'
 
 export const menuConfig = [
   {
