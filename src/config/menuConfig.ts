@@ -1,5 +1,3 @@
-import brochurePdf from '../assets/downloads/ESTPL-Brochure.pdf?url'
-
 export const menuConfig = [
   {
     title: 'Products',
@@ -23,15 +21,5 @@ export const menuConfig = [
     title: 'Career',
     url: '/career',
     items: [],
-  },
-  {
-    title: 'Download',
-    items: [
-      {
-        title: 'Brochure',
-        url: brochurePdf,
-        download: 'ESTPL-Brochure.pdf',
-      },
-    ],
   },
 ]
