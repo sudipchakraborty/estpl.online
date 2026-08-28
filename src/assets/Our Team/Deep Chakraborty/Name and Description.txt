@@ -1,0 +1,3 @@
+Name: Deep Chakraborty
+
+Description: Deep Chakraborty is an AI and Computer Vision developer with hands-on experience building practical solutions for object detection, image processing, dataset analysis, and intelligent camera systems. His work includes lightweight YOLO deployment, automatic licence-plate recognition, RTSP camera applications, camera calibration, AI dataset auditing, chatbots, and interactive data-analysis tools. With experience in Python, OpenCV, PyTorch, ONNX Runtime, OpenVINO, Streamlit, and .NET, Deep focuses on developing efficient, scalable AI applications for real-world and resource-constrained environments.

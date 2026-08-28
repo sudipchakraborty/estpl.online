@@ -1,0 +1,3 @@
+Name: Pratyush Nandi
+
+Description: Pratyush Nandi is a skilled software developer with a Master of Computer Applications (MCA). He works across both front-end and back-end technologies, contributing to the development of responsive user interfaces, reliable server-side applications, APIs, and database-driven solutions. With a practical understanding of modern development tools, Pratyush is committed to building efficient, user-friendly, and scalable software applications.

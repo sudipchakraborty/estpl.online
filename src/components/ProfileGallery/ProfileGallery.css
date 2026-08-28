@@ -1,0 +1,13 @@
+.profile-gallery {
+  display: grid;
+  gap: 28px;
+}
+
+.profile-gallery-empty {
+  padding: 36px;
+  border: 1px solid #dce5e8;
+  border-radius: 18px;
+  background: #ffffff;
+  color: #61747d;
+  text-align: center;
+}

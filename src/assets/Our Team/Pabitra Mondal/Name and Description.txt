@@ -1,0 +1,3 @@
+Name: Pabitra Mondal
+
+Description: Pabitra Mondal is an emerging AI and Machine Learning professional with a strong foundation in Python, data science, and predictive modelling. He has practical experience developing machine-learning solutions for cyberattack detection and identifying unsafe or hallucinated URLs in Large Language Model responses. His technical expertise includes Scikit-learn, Pandas, NumPy, Power BI, SQL, feature engineering, ensemble learning, model evaluation, and semantic analysis. Currently pursuing a Master of Computer Applications (MCA) at Adamas University, Pabitra is passionate about applying AI and data-driven technologies to solve real-world business and cybersecurity challenges.
