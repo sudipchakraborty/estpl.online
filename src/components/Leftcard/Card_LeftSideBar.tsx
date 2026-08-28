@@ -49,7 +49,7 @@ export default function LeftSideBar() {
         </button>
       ))}
 
-      <button className="sidebar-btn" onClick={() => navigateTo("#contact")}>
+      <button className="sidebar-btn" onClick={() => navigateTo("/contact")}>
         <span>Contact</span>
       </button>
     </aside>

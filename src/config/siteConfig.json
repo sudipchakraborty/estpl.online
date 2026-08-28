@@ -4,7 +4,7 @@
     "companyName": "ELTERN SEGEN Technologie Pvt Ltd",
     "tagline": "Industrial intelligence for safer, smarter and more reliable operations."
   },
-  "contact": { "email": "contact@estpl.online", "phone": "", "address": "" },
+  "contact": { "email": "info@elternsegen.ai", "phone": "", "address": "" },
   "footerLinks": [
     { "label": "Home", "url": "/" },
     { "label": "About Us", "url": "/company/about" },
@@ -12,7 +12,8 @@
     { "label": "Team", "url": "/company/team" },
     { "label": "Events", "url": "/company/events" },
     { "label": "Success Stories", "url": "/company/success-stories" },
-    { "label": "Careers", "url": "/career" }
+    { "label": "Careers", "url": "/career" },
+    { "label": "Contact Us", "url": "/contact" }
   ],
   "socialLinks": [
     { "label": "LinkedIn", "url": "" },
