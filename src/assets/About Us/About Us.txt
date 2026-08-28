@@ -1,0 +1,88 @@
+# About Us
+
+## Transforming Vision into Intelligence
+
+ELTERN SEGEN TECHNOLOGIE Pvt. Ltd. is a technology-driven company specializing in Visual AI, intelligent video analytics, industrial automation, and enterprise monitoring solutions. Through our Visual AI platform, **ELVA**, we transform images and video streams into actionable intelligence that helps organizations improve security, operational visibility, process efficiency, quality control, and regulatory compliance.
+
+We combine computer vision, object detection, Optical Character Recognition (OCR), behavioural analytics, anomaly detection, and predictive intelligence to address complex challenges across retail and manufacturing environments. Our solutions are designed not only to detect events but also to verify them, generate real-time alerts, maintain evidence and audit trails, and initiate automated business workflows.
+
+## What We Do
+
+ELVA connects with 4K and AI-enabled IoT cameras, production-line cameras, microscopes, and other imaging devices to continuously observe operational environments. Our AI models analyse the captured information to identify objects, read text, detect anomalies, classify events, and recognise behavioural patterns.
+
+The resulting intelligence is delivered through centralized dashboards, automated alerts, analytical reports, and traceable evidence. Our solutions can also integrate with existing ERP, POS, RFID, barcode, Business Intelligence, and access-control systems, enabling customers to strengthen their current infrastructure without replacing essential business platforms.
+
+## Our Approach
+
+Our Visual AI solutions follow a practical four-stage approach:
+
+**Detect:** Capture and identify objects, activities, defects, text, and operational events using cameras and AI models.
+
+**Verify:** Validate detected events through intelligent classification, evidence capture, business rules, and audit trails.
+
+**Optimize:** Convert visual data into meaningful insights that improve productivity, quality, resource utilization, and decision-making.
+
+**Secure:** Protect people, assets, inventory, processes, and facilities through continuous monitoring and real-time alerts.
+
+Our hybrid edge-and-cloud architecture supports responsive on-site processing while providing centralized monitoring and analytics across multiple locations.
+
+## Solutions for Jewellery Retail
+
+We understand that jewellery retail environments require a high level of security, accuracy, customer awareness, and operational control. Our jewellery-focused AI datasets and trained models support use cases such as:
+
+* Customer footfall and engagement analytics
+* Counter-wise crowd monitoring
+* Queue and waiting-time analysis
+* Salesperson activity and productivity tracking
+* Suspicious behaviour, shrinkage, and pilferage detection
+* Stock mismatch and display inconsistency identification
+* Planogram and display-compliance monitoring
+* Smart surveillance with automated alerts
+* Multi-location operational visibility
+
+These capabilities help retailers reduce operational losses, improve customer engagement, optimize staff productivity, and strengthen compliance across stores.
+
+## Solutions for Manufacturing
+
+Our industrial Visual AI solutions help manufacturers automate inspection, improve traceability, and maintain consistent production standards. Key applications include:
+
+* AI-based Pre-Dispatch Inspection
+* Surface and micro-defect detection
+* OCR and barcode verification
+* Packing and dispatch validation
+* Production-line monitoring
+* Worker safety and PPE-compliance detection
+* Workplace intrusion monitoring
+* Traceability and production analytics
+* Automated quality-inspection workflows
+
+By identifying errors and inconsistencies at the right stage, our solutions help reduce rework and wastage, improve quality consistency, and provide greater visibility across manufacturing operations.
+
+## Why Choose Us
+
+Our strength lies in combining artificial intelligence with practical industry knowledge and end-to-end implementation capabilities. We develop solutions around the customer’s actual operational environment, existing infrastructure, and measurable business objectives.
+
+Our key differentiators include:
+
+* Industry-focused AI datasets and trained models
+* Micron-level defect and inclusion-detection capabilities
+* Real-time alerts, evidence management, and audit trails
+* Hybrid edge-and-cloud deployment architecture
+* Integration with existing enterprise systems
+* Centralized dashboards for multi-location monitoring
+* Enterprise-grade security and access controls
+* Customizable workflows for retail and manufacturing operations
+
+## Proven Industry Experience
+
+We have successfully delivered AI-based retail intelligence, people-counting and behaviour analytics, intrusion detection, smart surveillance, automated alerting, planogram compliance, workplace safety, and Pre-Dispatch Inspection solutions.
+
+Our project experience includes engagements with organizations such as **Senco Gold Limited, Dhunseri Polyfilms Pvt. Limited, and Gibraltar Airsprings**. These implementations demonstrate our ability to translate advanced AI technologies into practical solutions for real-world business and industrial environments.
+
+## Our Commitment
+
+At ELTERN SEGEN TECHNOLOGIE, we believe that technology should deliver clear and measurable value. We are committed to building dependable, scalable, and future-ready solutions that help organizations make faster decisions, improve operational control, protect their assets, and maintain consistently high standards.
+
+By combining intelligent vision with industry-focused innovation, we enable businesses to move from passive monitoring to proactive, data-driven action.
+
+**ELVA by ESTPL — Detect. Verify. Optimize. Secure.**

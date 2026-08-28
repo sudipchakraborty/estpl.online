@@ -1,0 +1,81 @@
+# Join Our Team
+
+## AI & Full-Stack Development Intern
+
+ELTERN SEGEN TECHNOLOGIE Pvt. Ltd. is looking for a motivated and enthusiastic intern who is interested in building real-world solutions using Artificial Intelligence, Visual AI, computer vision, and modern web technologies.
+
+The selected candidate will work with our development team on AI model creation and training, camera-based analytics, and full-stack applications using React.js and Node.js. This internship is ideal for students or recent graduates who want practical exposure to industry-focused AI and software-development projects.
+
+## Key Responsibilities
+
+* Prepare, clean, annotate, and organize image datasets.
+* Create and train custom YOLO object-detection models.
+* Evaluate models using precision, recall, mAP, confusion matrices, and other performance metrics.
+* Test and optimize models for real-time camera and edge-device deployment.
+* Develop Visual AI features for object detection, tracking, classification, OCR, and event analysis.
+* Process images, recorded videos, webcams, and RTSP camera streams.
+* Build responsive dashboards and user interfaces using React.js.
+* Develop back-end services and REST APIs using Node.js and Express.js.
+* Integrate AI inference services with front-end and back-end applications.
+* Work with databases to store inspection events, alerts, users, device information, and analytical results.
+* Debug applications, document development activities, and use Git for version control.
+* Collaborate with the team during development, testing, validation, and deployment.
+
+## Required Skills
+
+* Basic knowledge of Python.
+* Understanding of machine learning and deep-learning concepts.
+* Familiarity with computer vision, OpenCV, or YOLO.
+* Basic knowledge of JavaScript, HTML, and CSS.
+* Familiarity with React.js for front-end development.
+* Basic understanding of Node.js and Express.js.
+* Knowledge of REST APIs and database fundamentals.
+* Familiarity with Git and GitHub.
+* Good analytical, problem-solving, and communication skills.
+* Willingness to learn new technologies and work on real-world challenges.
+
+## Preferred Skills
+
+Candidates with exposure to any of the following will have an added advantage:
+
+* Ultralytics YOLO and custom model training
+* Image annotation tools such as CVAT, Label Studio, or Roboflow
+* Object tracking, OCR, segmentation, or image classification
+* PyTorch, TensorFlow, ONNX, or OpenVINO
+* RTSP cameras and real-time video processing
+* MongoDB, PostgreSQL, or MySQL
+* Socket.IO, WebSocket, or MQTT
+* Linux, Raspberry Pi, or edge-AI devices
+* Deployment of React and Node.js applications
+* Personal AI, computer-vision, or full-stack projects on GitHub
+
+## Who Can Apply?
+
+* Students pursuing B.Tech, B.E., BCA, MCA, B.Sc., M.Sc., or a related discipline
+* Recent graduates seeking practical industry experience
+* Candidates with a strong interest in AI, Visual AI, computer vision, and full-stack development
+* Self-motivated learners who can work responsibly, collaborate with a team, and complete assigned tasks within agreed timelines
+
+## What You Will Gain
+
+* Hands-on experience with real-world Visual AI projects
+* Practical exposure to the complete AI model-development lifecycle
+* Experience building and integrating React.js and Node.js applications
+* Guidance from professionals experienced in AI, automation, embedded systems, and industrial technology
+* Exposure to industry use cases across retail intelligence, manufacturing inspection, security, and operational analytics
+* Opportunities to strengthen your technical portfolio through practical project work
+
+## How to Apply
+
+Interested candidates may send the following:
+
+* Updated résumé
+* Brief introduction
+* Relevant skills and areas of interest
+* GitHub, portfolio, or project links, if available
+* Current course, institution, and expected graduation year
+* Availability and preferred internship duration
+
+Email your application to **[info@elternsegen.ai](mailto:info@elternsegen.ai)** with the subject:
+
+**Application for AI & Full-Stack Development Internship**
