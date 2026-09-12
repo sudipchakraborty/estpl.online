@@ -3,11 +3,67 @@
   gap: 28px;
 }
 
+.profile-group-list {
+  display: grid;
+  gap: 42px;
+}
+
+.profile-group {
+  display: grid;
+  gap: 18px;
+}
+
+.profile-group-heading {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px 18px;
+  align-items: end;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dce5e8;
+}
+
+.profile-group-heading p {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: #087d9a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.profile-group-heading h2 {
+  margin: 0;
+  color: #092331;
+  font: 700 clamp(1.7rem, 3.2vw, 2.45rem) / 1.1 Manrope, sans-serif;
+}
+
+.profile-group-heading span {
+  color: #61747d;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+
 .profile-gallery-empty {
   padding: 36px;
   border: 1px solid #dce5e8;
-  border-radius: 18px;
+  border-radius: 8px;
   background: #ffffff;
   color: #61747d;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .profile-group-list {
+    gap: 34px;
+  }
+
+  .profile-group-heading {
+    display: block;
+  }
+
+  .profile-group-heading span {
+    display: block;
+    margin-top: 8px;
+  }
 }
