@@ -80,7 +80,7 @@
    LEFT LOGO AREA
 =================================== */
 
-.header-card{height:78px;padding:0 max(24px,calc((100vw - 1240px)/2));background:rgba(246,248,247,.92);border-top:0;border-bottom:1px solid #dbe5e6;box-shadow:none}.logo-primary{height:48px;max-width:86px}.logo-right{height:52px;max-width:135px}.logo-divider{height:30px;background:#cddbdd}.company-name{font-size:1.05rem;letter-spacing:.08em}.header-center{gap:2px}.nav-link{padding:9px 11px;border-radius:0;color:#587078;font-size:12px}.nav-link:hover{background:transparent;color:#075de7}.header-right{opacity:.82}
+.header-card{height:78px;padding:0 max(24px,calc((100vw - 1240px)/2));background:rgba(246,248,247,.92);border-top:0;border-bottom:1px solid #dbe5e6;box-shadow:none}.logo-primary{height:48px;max-width:86px}.logo-right{height:52px;max-width:135px}.logo-divider{height:30px;background:#cddbdd}.company-name{display:flex;flex-direction:column;gap:3px;font-size:1.05rem;letter-spacing:.08em}.company-name strong{font-weight:700}.company-name span{color:#6a7b80;font-size:9px;letter-spacing:.06em}.header-center{gap:2px}.nav-link{padding:9px 11px;border-radius:0;color:#587078;font-size:12px}.nav-link:hover{background:transparent;color:#075de7}.header-right{opacity:.82}
 
 .header-left {
 

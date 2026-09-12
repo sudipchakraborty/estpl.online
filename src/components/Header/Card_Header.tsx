@@ -11,7 +11,10 @@ export default function Header() {
       <div className="header-left" onClick={() => navigateTo("/")}>
         <img src={companyLogo1} alt={siteConfig.site.brandName} className="header-logo logo-primary" />
         <div className="logo-divider" />
-        <div className="company-name">{siteConfig.site.brandName}</div>
+        <div className="company-name">
+          <strong>{siteConfig.site.brandName}</strong>
+          <span>{siteConfig.site.companyName}</span>
+        </div>
       </div>
       <nav className="header-center" aria-label="Main navigation">
         <button className="nav-link" onClick={() => navigateTo("/")}>Home</button>
