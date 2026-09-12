@@ -7,20 +7,13 @@ interface FeatureCardProps {
   url: string;
 }
 
-function FeatureCard({
-  title,
-  image,
-  description,
-  url,
-}: FeatureCardProps) {
+function FeatureCard({ title, image, description, url }: FeatureCardProps) {
   return (
     <a className="feature-card" href={url}>
       <img src={image} alt={title} />
-
       <div className="card-content">
-        <span className="feature-arrow">↗</span>
+        <span className="feature-arrow" aria-hidden="true">↗</span>
         <h3>{title}</h3>
-
         <p>{description}</p>
       </div>
     </a>

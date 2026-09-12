@@ -1,675 +1,259 @@
-/* ===================================
-   HEADER
-=================================== */
-
 .header-card {
-
-  position:
-    fixed;
-
-  top:
-    0;
-
-  left:
-    0;
-
-  right:
-    0;
-
-  height:
-    90px;
-
-  padding:
-    0 32px;
-
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    space-between;
-
-  gap:
-    25px;
-
-  box-sizing:
-    border-box;
-
-  background:
-
-    rgba(
-      251,
-      251,
-      252,
-      0.96
-    );
-
-  backdrop-filter:
-    blur(20px);
-
-  border-top:
-
-    2px solid
-    #38222b;
-
-  border-bottom:
-
-    1px solid
-    #dce3ec;
-
-  box-shadow:
-
-    0 3px 12px
-
-    rgba(
-      15,
-      23,
-      42,
-      0.06
-    );
-
-  z-index:
-    10000;
-
+  position: fixed;
+  inset: 0 0 auto;
+  height: 82px;
+  padding: 0 max(24px, calc((100vw - 1240px) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  background: rgba(247, 250, 249, 0.9);
+  border-bottom: 1px solid rgba(184, 203, 207, 0.72);
+  backdrop-filter: blur(18px);
+  z-index: 10000;
 }
-
-
-/* ===================================
-   LEFT LOGO AREA
-=================================== */
-
-.header-card{height:78px;padding:0 max(24px,calc((100vw - 1240px)/2));background:rgba(246,248,247,.92);border-top:0;border-bottom:1px solid #dbe5e6;box-shadow:none}.logo-primary{height:48px;max-width:86px}.logo-right{height:52px;max-width:135px}.logo-divider{height:30px;background:#cddbdd}.company-name{display:flex;flex-direction:column;gap:3px;font-size:1.05rem;letter-spacing:.08em}.company-name strong{font-weight:700}.company-name span{color:#6a7b80;font-size:9px;letter-spacing:.06em}.header-center{gap:2px}.nav-link{padding:9px 11px;border-radius:0;color:#587078;font-size:12px}.nav-link:hover{background:transparent;color:#075de7}.header-right{opacity:.82}
 
 .header-left {
-
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  gap:
-    14px;
-
-  flex-shrink:
-    0;
-
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  min-width: 0;
+  flex-shrink: 0;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
 }
-
-
-/* All company logos */
 
 .header-logo {
-
-  width:
-    auto;
-
-  object-fit:
-    contain;
-
-  cursor:
-    pointer;
-
-  transition:
-
-    transform
-    0.25s ease;
-
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease;
 }
 
-
-.header-logo:hover {
-
-  transform:
-    scale(1.05);
-
+.header-left:hover .header-logo,
+.header-right:hover .header-logo {
+  transform: translateY(-1px);
 }
-
-
-/* First logo */
 
 .logo-primary {
-
-  height:
-    68px;
-
-  max-width:
-    115px;
-
+  height: 52px;
+  max-width: 92px;
 }
-
-
-/* Second logo */
-
-.logo-secondary {
-
-  height:
-    55px;
-
-  max-width:
-    100px;
-
-}
-
-
-/* Right company logo */
 
 .logo-right {
-
-  height:
-    74px;
-
-  max-width:
-    190px;
-
+  height: 54px;
+  max-width: 138px;
 }
-
-
-/* Vertical logo separator */
 
 .logo-divider {
-
-  width:
-    1px;
-
-  height:
-    45px;
-
-  background:
-    #d5dce5;
-
+  width: 1px;
+  height: 34px;
+  background: #c7d6da;
 }
-
-
-/* Company/product name */
 
 .company-name {
-
-  color:
-    #071507;
-
-  font-size:
-    1.55rem;
-
-  font-weight:
-    700;
-
-  white-space:
-    nowrap;
-
-  cursor:
-    pointer;
-
-  letter-spacing:
-    0.4px;
-
-  transition:
-
-    color
-    0.25s ease;
-
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: #0a2635;
+  white-space: nowrap;
 }
 
-
-.company-name:hover {
-
-  color:
-    #0284c7;
-
+.company-name strong {
+  font: 700 1.02rem Manrope, sans-serif;
+  letter-spacing: 0.04em;
 }
 
-
-/* ===================================
-   CENTER NAVIGATION
-=================================== */
+.company-name span {
+  color: #61747d;
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
 .header-center {
-
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    center;
-
-  gap:
-    5px;
-
-  flex:
-    1;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex: 1;
 }
-
 
 .nav-link {
-
-  padding:
-    10px 12px;
-
-  border:
-    none;
-
-  border-radius:
-    8px;
-
-  color:
-    #0e0447;
-
-  background:
-    transparent;
-
-  font-size:
-    14px;
-
-  white-space:
-    nowrap;
-
-  cursor:
-    pointer;
-
-  transition:
-
-    color
-    0.25s ease,
-
-    background
-    0.25s ease;
-
+  min-height: 38px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  color: #455e68;
+  background: transparent;
+  font: 700 0.76rem "DM Sans", sans-serif;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease;
 }
 
-
-.nav-link:hover {
-
-  color:
-    #0284c7;
-
-  background:
-
-    rgba(
-      2,
-      132,
-      199,
-      0.08
-    );
-
+.nav-link:hover,
+.nav-link:focus-visible {
+  color: #064fbf;
+  background: rgba(7, 93, 231, 0.08);
+  outline: none;
 }
 
-
-/* ===================================
-   DROPDOWN
-=================================== */
+.nav-link-strong {
+  color: #092331;
+  background: #dff5f3;
+}
 
 .dropdown {
-
-  position:
-    relative;
-
+  position: relative;
 }
-
 
 .dropdown-menu {
-
-  position:
-    absolute;
-
-  top:
-    46px;
-
-  left:
-    0;
-
-  min-width:
-    270px;
-
-  padding:
-    10px;
-
-  border:
-
-    1px solid
-
-    rgba(
-      255,
-      255,
-      255,
-      0.08
-    );
-
-  border-radius:
-    13px;
-
-  background:
-
-    rgba(
-      10,
-      15,
-      25,
-      0.98
-    );
-
-  box-shadow:
-
-    0 20px 45px
-
-    rgba(
-      0,
-      0,
-      0,
-      0.35
-    );
-
-  opacity:
-    0;
-
-  visibility:
-    hidden;
-
-  transform:
-
-    translateY(
-      8px
-    );
-
-  transition:
-
-    opacity
-    0.2s ease,
-
-    visibility
-    0.2s ease,
-
-    transform
-    0.2s ease;
-
-  z-index:
-    99999;
-
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  min-width: 250px;
+  padding: 8px;
+  border: 1px solid rgba(211, 225, 229, 0.18);
+  border-radius: 8px;
+  background: rgba(8, 28, 39, 0.98);
+  box-shadow: 0 20px 55px rgba(7, 25, 35, 0.28);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.18s ease, visibility 0.18s ease, transform 0.18s ease;
 }
 
-
-.dropdown:hover
-.dropdown-menu {
-
-  opacity:
-    1;
-
-  visibility:
-    visible;
-
-  transform:
-
-    translateY(
-      0
-    );
-
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
-
 
 .dropdown-item {
-
-  width:
-    100%;
-
-  padding:
-    12px 14px;
-
-  border:
-    none;
-
-  border-radius:
-    8px;
-
-  color:
-    #ffffff;
-
-  background:
-    transparent;
-
-  text-align:
-    left;
-
-  cursor:
-    pointer;
-
+  width: 100%;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  color: #d8e7e9;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
 }
 
-
-.dropdown-item:hover {
-
-  color:
-    #00d4ff;
-
-  background:
-
-    rgba(
-      255,
-      255,
-      255,
-      0.08
-    );
-
+.dropdown-item:hover,
+.dropdown-item:focus-visible {
+  color: #2bd4c7;
+  background: rgba(255, 255, 255, 0.08);
+  outline: none;
 }
-
-
-/* ===================================
-   RIGHT AREA
-=================================== */
 
 .header-right {
-
-  display:
-    flex;
-
-  align-items:
-    center;
-
-  justify-content:
-    flex-end;
-
-  gap:
-    15px;
-
-  flex-shrink:
-    0;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  opacity: 0.9;
 }
 
-
-.login-btn {
-
-  padding:
-    10px 17px;
-
-  border:
-
-    1px solid
-    #cbd5e1;
-
-  border-radius:
-    9px;
-
-  color:
-    #334155;
-
-  background:
-    #ffffff;
-
-  font-weight:
-    600;
-
-  cursor:
-    pointer;
-
-  transition:
-    0.25s ease;
-
+.mobile-menu-button {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #ccdbdf;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
 }
 
-
-.login-btn:hover {
-
-  color:
-    #0284c7;
-
-  border-color:
-    #0284c7;
-
-  background:
-    #f0f9ff;
-
+.mobile-menu-button span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  margin: 4px auto;
+  background: #0a2635;
 }
 
-
-/* ===================================
-   RESPONSIVE
-=================================== */
-
-@media (
-  max-width: 1250px
-) {
-
-  .company-name {
-
-    font-size:
-      1.25rem;
-
+@media (max-width: 1120px) {
+  .header-card {
+    padding: 0 22px;
   }
 
-
-  .header-center {
-
-    gap:
-      0;
-
+  .header-right {
+    display: none;
   }
-
 
   .nav-link {
-
-    padding:
-
-      9px
-      8px;
-
-    font-size:
-      13px;
-
+    padding: 0 9px;
   }
-
-
-  .logo-primary {
-
-    max-width:
-      90px;
-
-  }
-
-
-  .logo-secondary {
-
-    max-width:
-      80px;
-
-  }
-
-
-  .logo-right {
-
-    max-width:
-      150px;
-
-  }
-
 }
 
+@media (max-width: 920px) {
+  .header-card {
+    height: 76px;
+  }
 
-@media (
-  max-width: 1000px
-) {
+  .mobile-menu-button {
+    display: block;
+    order: 3;
+  }
 
   .header-center {
-
-    display:
-      none;
-
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 14px;
+    right: 14px;
+    display: none;
+    max-height: calc(100vh - 96px);
+    padding: 12px;
+    overflow: auto;
+    flex-direction: column;
+    align-items: stretch;
+    background: #ffffff;
+    border: 1px solid #d9e6e9;
+    border-radius: 8px;
+    box-shadow: 0 24px 60px rgba(8, 28, 39, 0.18);
   }
 
+  .header-center.is-open {
+    display: flex;
+  }
+
+  .nav-link,
+  .dropdown-item {
+    width: 100%;
+    text-align: left;
+  }
+
+  .dropdown-menu {
+    position: static;
+    display: none;
+    min-width: 0;
+    margin: 5px 0 8px;
+    box-shadow: none;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .dropdown:hover .dropdown-menu,
+  .dropdown:focus-within .dropdown-menu {
+    display: block;
+  }
 }
 
-
-@media (
-  max-width: 700px
-) {
-
-  .header-card {
-
-    height:
-      75px;
-
-    padding:
-      0 15px;
-
-  }
-
-
-  .company-name {
-
-    display:
-      none;
-
-  }
-
-
+@media (max-width: 620px) {
+  .company-name,
   .logo-divider {
-
-    display:
-      none;
-
+    display: none;
   }
-
 
   .logo-primary {
-
-    height:
-      55px;
-
-    max-width:
-      80px;
-
+    height: 50px;
+    max-width: 86px;
   }
-
-
-  .logo-secondary {
-
-    height:
-      45px;
-
-    max-width:
-      70px;
-
-  }
-
-
-  .logo-right {
-
-    height:
-      58px;
-
-    max-width:
-      120px;
-
-  }
-
-
-  .login-btn {
-
-    display:
-      none;
-
-  }
-
 }

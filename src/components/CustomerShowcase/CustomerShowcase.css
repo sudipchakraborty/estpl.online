@@ -1,8 +1,7 @@
 .customers-section {
-  padding: 60px 40px 70px;
-  border-top: 1px solid #e4eaed;
-  background: linear-gradient(180deg, #f8fafb 0%, #ffffff 100%);
-  text-align: center;
+  padding: 0;
+  background: transparent;
+  text-align: left;
 }
 
 .customers-eyebrow {
@@ -15,28 +14,28 @@
 }
 
 .customers-section h2 {
-  margin: 0 0 38px;
+  margin: 0 0 34px;
   color: #132d3a;
-  font-size: 2.2rem;
+  font-size: clamp(1.8rem, 3vw, 2.35rem);
 }
 
 .customer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
   gap: 16px;
   align-items: stretch;
 }
 
 .customer-logo-card {
-  min-height: 112px;
+  min-height: 118px;
   padding: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #ffffff;
   border: 1px solid #e1e8eb;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(18, 48, 61, 0.06);
+  border-radius: 8px;
+  box-shadow: 0 12px 32px rgba(18, 48, 61, 0.07);
 }
 
 .customer-logo-card img {

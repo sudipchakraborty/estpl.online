@@ -70,7 +70,7 @@ export default function Footer() {
           </div>
         )}
         <button className="elva-launcher" type="button" onClick={() => setAssistantOpen((open) => !open)} aria-expanded={assistantOpen}>
-          <span className="elva-spark">✦</span> Ask {assistant.name}
+          <span className="elva-spark" aria-hidden="true">✦</span> Ask {assistant.name}
         </button>
       </div>
     </>
