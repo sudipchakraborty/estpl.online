@@ -14,18 +14,16 @@ function FeatureCard({
   url,
 }: FeatureCardProps) {
   return (
-    <div
-      className="feature-card"
-      onClick={() => (window.location.href = url)}
-    >
+    <a className="feature-card" href={url}>
       <img src={image} alt={title} />
 
       <div className="card-content">
+        <span className="feature-arrow">↗</span>
         <h3>{title}</h3>
 
         <p>{description}</p>
       </div>
-    </div>
+    </a>
   );
 }
 

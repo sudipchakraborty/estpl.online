@@ -25,12 +25,33 @@ const valuedCustomers: CustomerLogo[] = Object.entries(logoModules)
 function Card_Middle_Home() {
   return (
     <div className="landing-container">
-      {/* Hero Banner */}
-      <Carousel />
-      {/* Feature Section */}
+      <section className="hero-stage">
+        <Carousel />
+        <div className="hero-content">
+          <p className="hero-eyebrow"><span /> Industrial intelligence, built for the real world</p>
+          <h1>See more.<br /><em>Know sooner.</em></h1>
+          <p className="hero-copy">ELVA turns live visual data into confident decisions for safer operations, better quality, and measurable performance.</p>
+          <div className="hero-actions">
+            <a className="hero-button" href="/contact">Talk to our team <span>↗</span></a>
+            <a className="hero-secondary" href="#solutions">Explore capabilities <span>↓</span></a>
+          </div>
+        </div>
+        <div className="hero-caption">Visual AI platform <span>01 / 04</span></div>
+      </section>
 
-      <section className="feature-section">
-        <h2>Our Solutions</h2>
+      <section className="proof-strip" aria-label="Platform highlights">
+        <div><strong>24 / 7</strong><span>continuous monitoring</span></div>
+        <div><strong>99.2%</strong><span>inspection consistency</span></div>
+        <div><strong>01</strong><span>connected intelligence layer</span></div>
+        <p>Designed in India<br />Ready for every industry</p>
+      </section>
+
+      <section className="feature-section" id="solutions">
+        <div className="section-intro">
+          <div><p className="section-label">What we make possible</p><span className="section-count">02 — 04</span></div>
+          <h2>Clarity at the<br /><em>point of action.</em></h2>
+          <p>From the production line to the control room, ELVA helps teams detect, understand, and respond to what matters.</p>
+        </div>
 
         <div
           className="feature-grid"
@@ -50,7 +71,10 @@ function Card_Middle_Home() {
         </div>
       </section>
 
-      <CustomerShowcase logos={valuedCustomers} />
+      <section className="trust-section">
+        <div><p className="section-label">Trusted by teams who build</p><h2>Technology that earns<br /><em>its place on the floor.</em></h2></div>
+        <CustomerShowcase logos={valuedCustomers} />
+      </section>
     </div>
   );
 }
