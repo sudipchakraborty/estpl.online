@@ -1,9 +1,6 @@
 Name: Sandipan Chakraborty
 Description:
-Sandipan Chakraborty is an accomplished technology leader with approximately two decades of experience serving as Chief Technology Officer at Airtel. Throughout his distinguished career in the telecommunications industry, he successfully managed diverse technical and leadership responsibilities, earning recognition for his professionalism, technical expertise, strategic thinking, and dependable leadership.
-
-As a Director of ELTERN SEGEN TECHNOLOGIE Pvt. Ltd., he provides strategic direction and valuable guidance across the company’s technology initiatives and business operations. His extensive knowledge of telecommunications, digital infrastructure, emerging technologies, and technology management helps the organization evaluate new opportunities and develop reliable, future-ready solutions.
-
-Mr. Chakraborty maintains a strong interest in new and evolving technologies. He encourages the thoughtful adoption of innovation while maintaining the highest standards of quality, professionalism, responsibility, and integrity. His experience and forward-looking perspective play an important role in shaping the company’s technological vision and long-term growth.
-
-Beyond his professional accomplishments, Mr. Chakraborty is deeply respected for his compassionate and people-centred leadership. He treats every team member as part of an extended family, values their contributions, and supports their professional and personal development. His approachable nature, mentorship, and commitment to teamwork help create a positive workplace where people feel respected, motivated, and empowered to perform at their best.
+This is Sandipan Chakraborty, ventured into IoT-Visual AI devices and Robotics to facilitate Enterprises in all Business Attributes. Director & Co-Founder ELTERN SEGEN Technologie Pvt Ltd.
+Our product can use its intelligence for enhancing Business, quality assurance, alert on events, prevention of probable noncompliance amongst lot many use cases. 
+I’ve served Telecom Industry for more than 33 years, starting from BPL in 1995, Reliance (launched mobile in WB Circle in 1997), Airtel (since 1999 & been CTO of Bihar, Bangladesh & WB). 
+Nurtured the idea of infusion of Intellect into surveillance and now started this ventured to collaborate in the compliance and growth story of all our Clients.
